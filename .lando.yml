@@ -1,2 +1,6 @@
 config:
   xdebug: true
+services:
+  appserver:
+    config:
+      conf: .vscode/php.ini
